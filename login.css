@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  
+}
+.logo img {
+height: 125px;
+  margin: 10px auto;
+  padding-right: 35rem;
+  
+}
+
+header {
+    background-color:  #7AFFD7;
+}
+
+nav ul {
+list-style: none;
+  padding: 0;
+    display: flex;
+    justify-content: center;
+       margin: 20px;
+}
+
+nav ul li {
+margin: 0;
+  padding: 0 20px;
+    display: flex;
+    justify-content: center;
+  
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 3rem;
+  font-size: 25px;
+  display: flex;
+}
+
+.login-container {
+padding-top: 500px;
+    width: 800px;
+    margin: 80px auto;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.login-form {
+    margin-top: 20px;
+  padding: 20px;
+  padding-right: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.back-button {
+    display: block;
+    margin: -20px 0 20px;
+    padding: 10px;
+  padding-top: 30px;
+    background-color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.social-logins {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-logins p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.social-logins img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}

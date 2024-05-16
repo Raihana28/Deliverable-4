@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotless-solution.css">
+</head>
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="login.html">LOG-IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="SERVICE_SELECTION">
+
+
+        <h2>ORDER REGISTRATION</h2>
+
+
+        <div class="home-container">
+            <img src="DEEP CLEANING SERVICES.png" alt="home cleaning pic" class="image">
+            <div class="overlay">Home Cleaning Service</div>
+        </div>
+
+
+        <div class="office-container">
+            <img src="LIVING ROOM CLEANING SERVICES.png" alt="office cleaning pic" class="image">
+            <div class="overlay">Office Cleaning Service</div>
+        </div>
+    </div>
+
+
+    <div class="ORDER_PLACEMENT1">
+
+
+        <h3>ORDER PLACEMENT</h3>
+
+
+        <div class="PLACEMENT">
+
+
+            <table id="area selection">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>SELECT AREA</th>
+                        <th></th>
+                        <th>QTY</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select class="dropdown">
+                                <option value="default">Select</option>
+                                <option value="option1">Bedroom</option>
+                                <option value="option2">Bathroom</option>
+                                <option value="option3">Living room</option>
+                                <option value="option4">Kitchen</option>
+                                <option value="option5">Attic</option>
+                                <option value="option6">Basement</option>
+                                <option value="option7">Other</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td>
+                            <button class="button decrement">-</button>
+                            <div class="box" id="counter">0</div>
+                            <button class="button increment">+</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <button id="add-row">Add Row</button>
+
+
+            <table id="duty selection">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>DUTY TYPE</th>
+                        <th></th>
+                        <th>no.of hours</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select class="dropdown2">
+                                <option value="2default">Select</option>
+                                <option value="2option1">Regular</option>
+                                <option value="2option2">Deep Cleaning</option>
+                                <option value="2option3">Extreme</option>
+                        </td>
+                        <td></td>
+                        <td>
+                            <button class="button decrement2">-</button>
+                            <div class="box" id="counter2">0</div>
+                            <button class="button increment2">+</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="directive">
+            <label for="file"> Upload img</label>
+            <input type="file" id="imgfile" name="imgfile" accept=".jpg, .jpeg, .png">
+            <textarea class="user-input" placeholder="Write your instructions here..."></textarea>
+        </div>
+
+
+        <div class="panel">
+            <table>
+                <td></td>
+                <td>
+                    <button class="reset" type="reset" name="reset">RESET</button>
+                </td>
+                <td>
+                    <button class="submit1" type="submit" name="submit1">SUBMIT</button>
+                </td>
+                <td></td>
+                <td>
+                    TOTAL:
+                </td>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="ORDER_PLACEMENT2">
+        <h3>ORDER PLACEMENT</h3>
+        <div class="PLACEMENT2">
+            <table id="dimension_selection">
+                <thead>
+                    <tr>
+                        <th colspan="2">SELECT AREA DIMENSION</th>
+                        <th></th>
+                        <th>NO. of ROOMS</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select class="dropdown1.0">
+                                <option value="1.0default">Select</option>
+                                <option value="1.0option1">~1000 sq.ft.</option>
+                                <option value="1.0option2">~1250 sq.ft.</option>
+                                <option value="1.0option3">~1500 sq.ft.</option>
+                                <option value="1.0option4">~1750 sq.ft.</option>
+                                <option value="1.0option5">~2000 sq.ft.</option>
+                                <option value="1.0option6">~2250 sq.ft.</option>
+                                <option value="1.0option7">~2500 sq.ft.</option>
+                                <option value="1.0option8">~2750 sq.ft.</option>
+                                <option value="1.0option9">~3000 sq.ft.</option>
+                                <option value="1.0option10">Other</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td>
+                            <button class="button decrement">-</button>
+                            <div class="box" id="counter">0</div>
+                            <button class="button increment">+</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <table id="duty_selection">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>DUTY TYPE</th>
+                        <th></th>
+                        <th>no.of hours</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select class="dropdown2.0">
+                                <option value="2.0default">Select</option>
+                                <option value="2.0option1">Regular</option>
+                                <option value="2.0option2">Deep cleaning</option>
+                                <option value="2.0option3">Extreme</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td>
+                            <button class="button decrement2">-</button>
+                            <div class="box" id="counter2">0</div>
+                            <button class="button increment2">+</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="directive">
+            <label for="file"> Upload img</label>
+            <input type="file" id="imgfile" name="imgfile" accept=".jpg, .jpeg, .png">
+            <textarea class="user-input" placeholder="Write your instructions here..."></textarea>
+        </div>
+
+
+        <div class="panel">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="reset" type="reset" name="reset">RESET</button>
+                    </td>
+                    <td>
+                        <button class="submit2" type="submit" name="submit2">SUBMIT</button>
+                    </td>
+                    <td></td>
+                    <td>
+                        TOTAL:
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="ORDER_REGISTRATION">
+
+
+        <h3>ORDER REGISTRATION</h3>
+
+
+        <div class="REGISTRATION">
+            <table id="register">
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th colspan="2">Phone Number</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="First Middle. Last" name="name">
+                    </td>
+                    <td colspan="2">
+                        <input type="tel" pattern="[0-9]*" maxlength="12" placeholder="+63" name="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Street Address</th>
+                    <th colspan="2">Email Address</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="Brgy., Prk, St., Bldg no." name="street">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" placeholder="info@gmail.com" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Province/City</th>
+                    <th>Zip Code</th>
+                    <th>SET DATE</th>
+                    <th>AND TIME</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="City" name="city">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="****" name="zip">
+                    </td>
+                    <td>
+                        <input type="date" id="set date" name="date" value="dd-mm-yy" min="2024-05-01" max="2050-12-31">
+                    </td>
+                    <td>
+                        <input type="time" id="setTime" name="time" placeholder="HH:mm" min="00:00" max="23:59">
+                    </td>                    
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            <button class="submit3" type="submit" name="place order">PLACE ORDER</button>
+                        </td>
+                        <td colspan="2">
+                            TOTAL:
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+<script src="spotless-solution.js"></script>
+
+
+</html>
+
